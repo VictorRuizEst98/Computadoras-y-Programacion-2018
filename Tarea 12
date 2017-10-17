@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char** argv) {
+float uwu=0;
+float owo=0;
+int ewe=0;
+ printf("Dame un numero con decimales:");
+ scanf("%f",&uwu);
+ printf("\nDame otro numero con decimales");
+ scanf("%f",&owo);
+ printf("\nAhora dame un numero entero:");
+ scanf("%d",&ewe);
+  if(uwu==owo&&uwu==ewe)
+   printf("\nTus 3 numeros son iguales");
+  else{
+    if(uwu>owo&&uwu>ewe)
+      printf("\n %.2f es el mayor",uwu);
+         if(owo>uwu&&owo>ewe)
+          printf("\n %.2f es el mayor",owo);
+            if(ewe>uwu&&ewe>owo)
+              printf("\n %d es el mayor",ewe);}
+  if(uwu<owo&&uwu<ewe)
+   printf("\n %.2f es el menor",uwu);
+  if(owo<uwu&&owo<ewe)
+   printf("\n %.2f es el menor",owo);
+   if(ewe<uwu&&ewe<owo)
+   printf("\n %d es el menor",ewe);
+  printf("\nNos vemos luego");}
