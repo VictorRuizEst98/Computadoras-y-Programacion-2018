@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(int argc, char** argv) {
+ int uwu=0;
+ int x=0;
+ int y=0;
+ int resultado=0;
+  printf("\nOperaciones aritmeticas!");
+   do{
+   	 printf("\n\nSelecciona una opcion\n 1-Suma\n 2-Resta\n 3- Salir");
+   	    scanf("%d",&uwu);
+   	    if (uwu>3)
+   	     printf("Por favor selecciona uno de las 3 opciones.");
+   	    if (uwu==1){
+   	     printf("\n Haz seleccionado sumas.\n Ingresa el primer valor a sumar:");
+   	      scanf("%d",&x);
+   	       printf(" Ingresa el segundo valor a sumar:");
+   	        scanf("%d",&y);
+   	         resultado=x+y;
+   	          printf("\nEl resultado es: %d", resultado);}
+   	    if (uwu==2){
+   	     printf("\n Haz seleccionado restas.\n Ingresa el primer valor a restar:");
+   	      scanf("%d",&x);
+   	       printf("Ingresa el segundo valor a restar:");
+   	        scanf("%d",&y);
+   	         resultado=x-y;
+   	          printf("\nEl resultado es: %d", resultado);}
+   	    }
+   	while(uwu!=3);
+   	 printf("\nVuelve pronto!");
+}
